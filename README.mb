@@ -1,0 +1,9 @@
+This is a simple little CLI connect 4 game on a 7*6 grid.
+
+Each player is represented on the board by either X or 0
+
+When the game starts out, you can select to have two human players, or a human and computer player, or two computer players. 
+
+If a player makes an invalid move, they will see an error message, and given the chance to play again. 
+
+When a winner gets 4 "tokens" in a row (vertically, horzontally, or diagonally) they WIN.. WOOT
