@@ -1,0 +1,19 @@
+Style/StringLiterals:
+  EnforcedStyle: double_quotes #https://www.viget.com/articles/just-use-double-quoted-ruby-strings
+
+# Commonly used screens these days easily fit more than 80 characters.
+Metrics/LineLength:
+  Max: 130
+
+AllCops:
+  TargetRubyVersion: 2.3
+
+Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+#https://gist.github.com/baash05/e715636b5f8330944e2f1134642d0b74
+Lint/Loop:
+  Enabled: false
